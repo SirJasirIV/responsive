@@ -74,3 +74,92 @@
 .Aboutme > span > i {
     padding-left: 7px;
 }
+span {
+    font-family: sans-serif;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    row-gap: 30px;
+}
+.projectCont {
+    width: auto;
+    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+.projectCont > div:not(.projName) {
+    background-color: rgb(105, 107, 241);
+    height: 100px;
+    width: 280px;
+    text-align: center;
+    padding-top: 90px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.projName {
+    height: 150px;
+    width: 280px;
+}
+.projName > span {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 280px;
+    padding-top: 6px;
+}
+.projName > span > i {
+   justify-self: flex-end;
+   padding-left: 20px;  
+}
+.projName > p {
+    padding-top: 6px;
+    font-family: sans-serif;
+}
+
+body > span {
+    padding-left: 68px;
+    font-family: sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.midSection {
+    display: flex;
+    flex-direction: column;
+}
+.mail {
+    font-size: 20px;
+}
+.footer {
+    display: flex;
+    width: auto;
+    background-color: #5b85c5;
+    flex-direction: row;
+    height: 300px;
+    margin-top: 30px;
+}
+.footerPhoto {
+    size: cover;
+    height: 200px;
+    width: 200px;
+    padding-left: 200px;
+    padding-top: 40px;
+}
+svg {
+    width: 20px;
+    height: 20px;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+.contact > p {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.contact > span {
+    padding-top: 40px;
+}
